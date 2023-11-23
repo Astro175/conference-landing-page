@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 140px;
+  /* background-color: red; */
+}
+
+.register-btn {
+    margin: auto;
+    margin-left: 70em;
+    height: 45px;
+    border-radius: 5px;
+    width: 150px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+
+}
