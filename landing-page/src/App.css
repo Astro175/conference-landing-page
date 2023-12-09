@@ -1,7 +1,11 @@
 .container {
- background-image: linear-gradient(177deg, #191E24 27.15%, #353F4A 99.74%);
  width: 100vw;
  height: 100vh;
  color: #FFF;
-font-family: Nunito;
+ font-family: Nunito;
+ margin: 0;
+}
+
+body {
+    background-image: linear-gradient(177deg, #191E24 100%, #353F4A 0%);
 }

@@ -1,0 +1,58 @@
+* {
+   text-align: center; 
+}
+
+.time-container span {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    width: 80px;
+}
+
+.time-container {
+    max-width: 625px;
+    /* background-color: red; */
+
+
+}
+
+.join-btn {
+    width: 300px;
+    height: 70px;
+    border-radius: 15px;
+    background: #3461FF;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 3em;
+}
+
+.capsule {
+    display: flex;
+    /* gap: 5px; */
+    flex-direction: row;
+    margin-top: 3em;
+}
+
+.interval {
+    color: #FFF;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.time-title {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 85px;
+    text-align: left;
+}
