@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.timestamp--section {
+    width: 750px;
+    height: 130px;
+    border-radius: 32px;
+    background: #2D3640;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    padding: 3.5em;
+    align-items: center;
+    align-self: center;
+    margin-top: 1em;
+}
+
+.timestamp--duration, .timestamp-content-container {
+    flex: 1; /* This will make them take up equal space */
+}
+
+.timestamp--duration, .timestamp--title {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.timestamp--duration {
+    margin-right: 1em; /* Add some margin for spacing */
+}
+
+.timestamp--title {
+    text-align: left;
+}
+
+.timestamp--section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    text-align: left;
+}
+
+.timestamp-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em; /* Add some margin for spacing */
+}

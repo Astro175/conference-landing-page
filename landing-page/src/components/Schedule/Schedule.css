@@ -1,0 +1,51 @@
+.schedule--section {
+    padding: 5em;
+    position: relative;
+}
+
+.schedule--title {
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.schedule--button {
+    width: 17.5em;
+    height: 4.5em;
+    border-radius: 1em;
+    background: #3461FF;
+    color: white;
+    border: none;
+    margin-top: 2em;
+}
+
+.schedule--timestamps {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 2em;
+}
+
+.schedule--section svg {
+    position: absolute;
+}
+
+.vector-triangle {
+    left: 5em;
+    top: 20%;
+}
+
+.vector-sm-sq {
+    left: 5em;
+    bottom: 30%;
+}
+
+.vector-lg-sq {
+    right: 5em;
+    top: 30%;
+}
+
+.vector-sm-cir {
+    right: 5em;
+    bottom: 20%;
+}
