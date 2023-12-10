@@ -2,60 +2,36 @@ export default [
     {
         name: 'Kashifu Inuwa',
         rank: 'D.G NITDA',
-        imageUrl: ""
+        imageUrl: "Kashafu-Inowa.png",
+        id: 1
     },
     {
         name: 'Charles Odii',
         rank: 'D.G SMEDA',
-        imageUrl: ""
+        imageUrl: "Charles-Odii.png",
+        id: 2
     },
      {
-        name: 'Thomas Adewunmi',
-        rank: 'Javascript Engineer',
-        imageUrl: ""
+        name: 'Dr Johnson Adewumi',
+        rank: 'Chancellor Thomas Adewunmi University',
+        imageUrl: "Johnson-Adewumi.png",
+        id: 3
     },
       {
-        name: 'Ibrahim Olawande',
+        name: 'Dr. Jamila Bio Ibrahim',
         rank: 'Minister for Youth',
-        imageUrl: ""
+        imageUrl: "Jamila-Ibrahim.png",
+        id: 4
     },{
         name: 'Temi Kolawole',
         rank: 'M.D Innovation Hub',
-        imageUrl: ""
+        imageUrl: "Temi-Kolawole.png",
+        id: 5
     },
      {
-        name: 'Erny Sukmana',
+        name: "Sa'adatu Modibbo-Kawu",
         rank: 'Commissioner for Education',
-        imageUrl: ""
-    },
-     {
-        name: 'Abdulrahman Razaq',
-        rank: 'Governor of Kwara State',
-        imageUrl: ""
-    },
-     {
-        name: 'Audrey Azoulay',
-        rank: 'Secretary General of UNESCO',
-        imageUrl: ""
-    },
-     {
-        name: 'Abdulrahman Razaq',
-        rank: 'D.G Kwara State',
-        imageUrl: ""
-    },
-     {
-        name: 'Olofa of Offa',
-        rank: 'Royal Father 1',
-        imageUrl: ""
-    },
-    {
-        name: 'Emir of Ilesha Baruba',
-        rank: 'Royal Father 2',
-        imageUrl: ""
-    },
-    {
-        name: 'Yemisi Edun',
-        rank: 'M.D FCMB',
-        imageUrl: ""
+        imageUrl: "Saadatu-Kawu.png",
+        id: 6
     }
 ]

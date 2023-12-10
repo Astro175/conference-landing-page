@@ -1,0 +1,22 @@
+.speakers--profile {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.speakers--section {
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5em;
+    margin-left: 5em;
+}
+
+.speakers--title {
+    text-align: left;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 800;
+}

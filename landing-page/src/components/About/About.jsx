@@ -11,14 +11,14 @@ const About = () => {
     return ( 
         <section className="about--section">
             <div className="about--images">
-                <img src={image1} alt="tech experts in office" />
-                <img src={image2} alt="ladies in tech" />
-                <img src={vector} alt="button-vector-icon" />
+                <img className='vector-2'src={image2} alt="ladies in tech" />
+                <img className='vector-1'src={image1} alt="tech experts in office" />
+                <img className='vector-3'src={vector} alt="button-vector-icon" />
 
             </div>
             <div className="about--writeup">
-                <h3>About Conference</h3>
-                <p>{myText}</p>
+                <h3 className='about--title'>About Conference</h3>
+                <p className='about--text'>{myText}</p>
                 <span className='about--subtitle'>Kwara State Banquet Hall</span>
                 <div className="about--info">
                     <div className="about--day">
