@@ -8,3 +8,14 @@
 .guests--section {
     margin-top: 1em;
 }
+
+@media (max-width: 480px) {
+    .guests--section {
+        margin-top: 0;
+    }
+
+    .guests--title {
+        font-size: 18px;
+    }
+    
+}

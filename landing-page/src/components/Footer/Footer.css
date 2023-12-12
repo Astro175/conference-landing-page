@@ -1,0 +1,130 @@
+footer {
+    display: flex;
+    padding: 2em 8em;
+    gap: 7em;
+    justify-content: space-between;
+}
+
+.newsletter {
+    position: relative;
+    max-width: 39em;
+}
+
+.newsletter svg {
+    position: absolute;
+    text-align: left;
+}
+
+.footer--title {
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+}
+
+.newsletter--form input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  color: white;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 350px;
+  text-align: left;
+}
+
+.policy-and-terms {
+    display: flex;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    gap: 1em;
+}
+
+.site--title {
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.subscribe--btn {
+    width: 11em;
+    height: 4em;
+    border-radius: 1em;
+    background: #3461FF;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+.newsletter--form {
+    /* background-color: red; */
+    margin: 0;
+    display: flex;
+    align-items: end;
+}
+
+.newsletter--form input::placeholder {
+  position: absolute;
+  color: #D6D8DA;
+  bottom: 5px;
+  left: 0px;
+  transition: 0.3s ease;
+}
+
+.social {
+    margin: auto;
+}
+
+@media (max-width: 485px) {
+    footer {
+        padding: 2em 2em;
+        gap: 2em;
+    }
+
+    .footer--title {
+        font-size: 10px;
+    }
+    .newsletter--form input {
+        font-size: 6px;
+        width: 95px;
+    }
+    .subscribe--btn {
+        width: 40px;
+        height: 16px;
+        font-size: 6px;
+    }
+
+    .newsletter svg {
+        width: 5px;
+        height: 6px;
+    }
+    .site--title {
+        font-size: 6px;
+    }
+    .policy-and-terms {
+        font-size: 6px;
+    }
+
+    .vector-social {
+        width: 27px;
+        height: 5px;
+    }
+
+    .social--icons {
+        display: none;
+    }
+
+
+
+}

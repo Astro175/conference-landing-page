@@ -49,3 +49,35 @@
     right: 5em;
     bottom: 20%;
 }
+
+@media (max-width: 480px) {
+
+.schedule--timestamps {
+    gap: 1em;
+}
+
+.schedule--title {
+    font-size: 32px;
+}
+
+.schedule--section svg {
+    width: 8px;
+    height: 8px;
+    
+}
+
+.vector-lg-sq {
+    top: 40%;
+}
+.vector-sm-cir {
+    bottom: 16%;
+}
+
+.schedule--button {
+    display: none;
+}
+
+.schedule--section {
+    padding: 2em;
+}
+}

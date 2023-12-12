@@ -15,8 +15,6 @@
 .time-container {
     max-width: 625px;
     /* background-color: red; */
-
-
 }
 
 .join-btn {
@@ -44,15 +42,65 @@
     font-family: Nunito;
     font-size: 26px;
     font-style: normal;
+    font-weight: 800;
+    font-style: normal;
     font-weight: 600;
 }
 
-.time-title {
+#time-title {
     color: #FFF;
     font-family: Nunito;
-    font-size: 72px;
+    font-size: 4.5em;
     font-style: normal;
     font-weight: 800;
     line-height: 85px;
     text-align: left;
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+     .time-title {
+    font-size: 1rem;
+    font-style: normal;
+    max-width: 100px;
+    line-height: 1.5em;
+    text-align: justify;
+    max-width: 90px;
+    }
+
+    .join-btn {
+        max-width: 150px;
+        max-height: 40px;
+        font-size: 13px;
+        margin-top: 1em;
+    }
+
+    #time-title {
+        font-size: 1em;
+        font-style: normal;
+        line-height: 1.5em;
+        flex-wrap: wrap;
+        display: flex;
+        
+    }
+    .time-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .time-container {
+    height: 100%;
+    }
+
+    .time-container span {
+        font-size: 1em;
+        width: 1.2em;
+    }
+
+    .interval {
+        font-size: .5em;
+    }
+    .capsule {
+        margin-top: 1em;
+    } 
 }

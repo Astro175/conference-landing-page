@@ -19,3 +19,18 @@ nav {
     color: white;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    nav .title {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    .register-btn {
+      width: 70px;
+      height: 32px;
+      margin-left: 7em;
+    }
+    
+}

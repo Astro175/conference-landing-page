@@ -4,7 +4,7 @@ import './Time.css';
 export default function Time() {
   const calculateTimeLeft = () => {
     const currentDate = new Date();
-    const targetDate = new Date('2024/01/19');
+    const targetDate = new Date('2024/01/24');
     const difference = targetDate - currentDate;
 
     let timeleft = {};
@@ -48,7 +48,9 @@ export default function Time() {
 
   return (
     <div className='time-container'>
-      <h1 className='time-title'>Kwara Digital Education Summit</h1>
+      <div className="time-title-container">
+        <div id="time-title">Kwara Digital Education Summit</div>
+      </div>
       <div className='capsule'>
         {timeComponents.length ? (
           timeComponents.reduce((acc, curr) => [acc, <span key={acc + curr}>{':'}</span>, curr])

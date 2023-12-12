@@ -12,7 +12,7 @@ const Guests = () => {
     })
     return ( 
         <section className="guests--section speakers--section">
-            <h3 className="guests--title">Special Guests</h3>
+            <h3 className="guests--title">Special Guests of Honor</h3>
             <article className="speakers--profile">
                 {specialGuests}
             </article>

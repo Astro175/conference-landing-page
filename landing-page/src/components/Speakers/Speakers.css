@@ -12,6 +12,7 @@
     justify-content: center;
     padding: 5em;
     margin-left: 5em;
+    
 }
 
 .speakers--title {
@@ -19,4 +20,25 @@
     font-size: 3.5em;
     font-style: normal;
     font-weight: 800;
+}
+
+@media (max-width: 480px) {
+    .speakers--section {
+        margin-top: 2em;
+        margin-left: 0;
+        padding: 1em;
+    }
+    .speakers--profile {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+        gap: 1em;
+        /* background-color: red; */
+        padding: 2em;
+    }
+
+    .speakers--title {
+        font-size: 18px;
+    }
+
+
 }

@@ -1,6 +1,7 @@
 import './App.css';
 // import Profile from './components/Profile/Profile' 
 import About from './components/About/About';
+import Footer from './components/Footer/Footer';
 import Guests from './components/Guests/Guests';
 import Head from './components/Header/Header';
 import Schedule from './components/Schedule/Schedule';
@@ -14,6 +15,7 @@ function App() {
       <Speakers />
       <Schedule />
       <Guests />
+      <Footer />
     </div>
   )
 }

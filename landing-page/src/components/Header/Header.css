@@ -66,3 +66,25 @@ header::after {
     top: 10%;
     right: 10%;
 }
+
+/* Mobile view */
+@media (max-width: 485px) {
+    header {
+        max-height: 250px;
+        padding: 1em 1em;
+    }
+
+    .contain-content {
+    margin-top: 2em;
+    gap: 1em;
+    }
+    .icons {
+        width: 6px;
+        height: 6px;
+    }
+
+    .icon-3 {
+        top: 90%;
+    }
+
+}

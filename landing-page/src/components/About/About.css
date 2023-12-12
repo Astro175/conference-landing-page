@@ -75,13 +75,79 @@
 .vector-1 {
     top: 17em;
     left: 10em;
+    z-index: 1;
 }
 
 .vector-2 {
     top: 2em;
+    z-index: 1;
 }
 
 .vector-3 {
     top: 11em;
     left: 20em;
+    position: absolute;
+    z-index: 3;
+}
+/* MEDIA QUERY */
+@media (max-width: 480px) {
+    .about--images > img {
+    height: 150px;
+    width: 135px;
+}
+.about--section {
+    display: flex;
+    padding: 0 1em;
+}
+.about--title {
+    font-size: 1em;
+}
+
+.about--info > div {
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+}
+.about--text {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.about--info h4 {
+    font-size: 16px;
+}
+
+.about--subtitle {
+    font-size: 10px;
+}
+
+.about--info span {
+    font-size: 6px;
+}
+
+.vector-1 {
+    top: 8em;
+    left: 1em;
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 4px;
+}
+
+.vector-3 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 6em;
+    top: 7em;
+}
+
+.about--writeup {
+    width: 50%;
+}
+
+.about--info {
+    gap: 3em;
+}
 }

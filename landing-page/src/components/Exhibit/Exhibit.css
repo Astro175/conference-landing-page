@@ -1,5 +1,6 @@
 .exhibit--container {
     position: relative;
+    width: 100%;
 }
 
 .rectangle {
@@ -18,4 +19,19 @@
     margin-left: 50px;
     position: relative;
     z-index: 2;
+}
+
+@media (max-width: 485px) {
+    .rectangle {
+        width: 135px;
+        height: 160px;
+        border-radius: 8px;
+    }
+    .exhibit--image {
+       width: 145px;
+       height: 170px;
+       margin-top: 10px;
+       margin-left: 0px;
+    }
+
 }

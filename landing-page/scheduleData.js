@@ -6,7 +6,7 @@ export default [
         id: 1
     },
     {
-        time: '10:00-10:00',
+        time: '10:00-11:00',
         title: 'KJIR Repository',
         id: 2
     },

@@ -25,8 +25,8 @@ export default [
 
     },
     {
-        name: "Emir of Ilesha Baruba",
-        rank: "Royal Father 2",
+        name: "Prof Halidu Abubakar",
+        rank: "Emir of Ilesha Baruba",
         imageUrl: "Emir-of-Ilesha-Baruba.png",
         id: 5
     },
