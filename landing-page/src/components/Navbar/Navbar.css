@@ -21,6 +21,10 @@ nav {
 }
 
 @media (max-width: 480px) {
+
+    nav {
+      padding-left: 1em;
+    }
     nav .title {
       font-size: 12px;
       font-style: normal;
@@ -30,7 +34,8 @@ nav {
     .register-btn {
       width: 70px;
       height: 32px;
-      margin-left: 7em;
+      margin-left: 10em;
+      display: none;
     }
     
 }

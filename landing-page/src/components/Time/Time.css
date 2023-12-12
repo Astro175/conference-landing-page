@@ -59,14 +59,6 @@
 
 /* Mobile view */
 @media (max-width: 480px) {
-     .time-title {
-    font-size: 1rem;
-    font-style: normal;
-    max-width: 100px;
-    line-height: 1.5em;
-    text-align: justify;
-    max-width: 90px;
-    }
 
     .join-btn {
         max-width: 150px;
@@ -86,10 +78,12 @@
     .time-title-container {
     display: flex;
     justify-content: space-between;
+    padding-left: 1em;
 }
 
     .time-container {
     height: 100%;
+    padding-left: 1em;
     }
 
     .time-container span {
@@ -102,5 +96,6 @@
     }
     .capsule {
         margin-top: 1em;
+        
     } 
 }

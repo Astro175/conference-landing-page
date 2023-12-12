@@ -12,9 +12,9 @@ export default [
         id: 2
     },
     {
-        name: "Kayode Alabi",
-        rank: "Deputy Governor of  Kwara State",
-        imageUrl: "Kayode-Alabi.png",
+        name: "Dr Adetola Ariyike",
+        rank: "Special Adviser to the Governor of Kwara State",
+        imageUrl: "Adetola-Ariyike.png",
         id: 3
     },
     {

@@ -71,7 +71,8 @@ header::after {
 @media (max-width: 485px) {
     header {
         max-height: 250px;
-        padding: 1em 1em;
+        padding: 0;
+        padding-left: 0;
     }
 
     .contain-content {
@@ -86,5 +87,6 @@ header::after {
     .icon-3 {
         top: 90%;
     }
+    
 
 }
