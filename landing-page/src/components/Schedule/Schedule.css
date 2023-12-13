@@ -67,10 +67,14 @@
 }
 
 .vector-lg-sq {
-    top: 40%;
+    top: 60%;
+}
+
+.vector-sm-sq {
+    top: 43%
 }
 .vector-sm-cir {
-    bottom: 16%;
+    top:  5%;
 }
 
 .schedule--button {

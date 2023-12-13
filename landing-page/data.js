@@ -1,5 +1,11 @@
 export default [
     {
+        name: 'Dr. Jamila Bio Ibrahim',
+        rank: 'Minister for Youth',
+        imageUrl: "Jamila-Ibrahim.png",
+        id: 4
+    },
+    {
         name: 'Kashifu Inuwa',
         rank: 'D.G NITDA',
         imageUrl: "Kashafu-Inowa.png",
@@ -18,11 +24,6 @@ export default [
         id: 3
     },
       {
-        name: 'Dr. Jamila Bio Ibrahim',
-        rank: 'Minister for Youth',
-        imageUrl: "Jamila-Ibrahim.png",
-        id: 4
-    },{
         name: 'Temi Kolawole',
         rank: 'M.D Innovation Hub',
         imageUrl: "Temi-Kolawole.png",

@@ -13,7 +13,7 @@ export default [
     },
     {
         name: "Dr Adetola Ariyike",
-        rank: "Special Adviser to the Governor of Kwara State",
+        rank: "S.A to the Governor of Kwara State",
         imageUrl: "Adetola-Ariyike.png",
         id: 3
     },
