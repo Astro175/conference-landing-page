@@ -23,16 +23,17 @@ export default [
         imageUrl: "Johnson-Adewumi.png",
         id: 3
     },
+     {
+        name: "Sa'adatu Modibbo-Kawu",
+        rank: 'Commissioner for Education',
+        imageUrl: "Saadatu-Kawu.png",
+        id: 6
+    },
       {
         name: 'Temi Kolawole',
         rank: 'M.D Innovation Hub',
         imageUrl: "Temi-Kolawole.png",
         id: 5
     },
-     {
-        name: "Sa'adatu Modibbo-Kawu",
-        rank: 'Commissioner for Education',
-        imageUrl: "Saadatu-Kawu.png",
-        id: 6
-    }
+    
 ]
