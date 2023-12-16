@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 
   function App() {
@@ -44,42 +44,42 @@ import './App.css';
         backgroundColor:'rgba(255, 255, 255, 1.0)',
       }}
       >
-        <div class="top-reg">
+        <div className="top-reg">
         <h3>Registration Form</h3>
         </div>
-        <form class="form-floating" onSubmit={handleSubmit}>
-          <div class='container'>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Surname" value={formData.surName}
+        <form className="form-floating" onSubmit={handleSubmit}>
+          <div className='container'>
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="floatingInput" placeholder="Surname" value={formData.surName}
               onChange={handleChange}/>
-              <label for="floatingInput">Surname</label>
+              <label htmlFor="floatingInput">Surname</label>
             </div>
-            <div class="form-floating">
-              <input type="text" class="form-control" id="floatingPassword" placeholder="First name" value={formData.firstName} onChange={handleChange}/>
-              <label for="floatingPassword">First name</label>
+            <div className="form-floating">
+              <input type="text" className="form-control" id="floatingPassword" placeholder="First name" value={formData.firstName} onChange={handleChange}/>
+              <label htmlFor="floatingPassword">First name</label>
             </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Middle Name" value={formData.otherName}
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="floatingInput" placeholder="Middle Name" value={formData.otherName}
               onChange={handleChange}/>
-              <label for="floatingInput">Middle name</label>
+              <label htmlFor="floatingInput">Middle name</label>
             </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Phone Number" value={formData.otherName}
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="floatingInput" placeholder="Phone Number" value={formData.otherName}
               onChange={handleChange}/>
-              <label for="floatingInput">Phone Number</label>
+              <label htmlFor="floatingInput">Phone Number</label>
             </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" value={formData.email}
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com" value={formData.email}
               onChange={handleChange}/>
-              <label for="floatingInput">Email</label>
+              <label htmlFor="floatingInput">Email</label>
             </div>
-            <div class="form-floating mb-3">
-              <input type="text" class="form-control" id="floatingInput" placeholder="Organization" value={formData.surName}
+            <div className="form-floating mb-3">
+              <input type="text" className="form-control" id="floatingInput" placeholder="Organization" value={formData.surName}
               onChange={handleChange}/>
-              <label for="floatingInput">Organization</label>
+              <label htmlFor="floatingInput">Organization</label>
             </div>
-            <div class="form-floating mb-3">
-              <select class="form-select-sm" aria-label="Default select example" onChange={handleChange}>
+            <div className="form-floating mb-3">
+              <select className="form-select-sm" aria-label="Default select example" onChange={handleChange}>
                 <option selected>Select category</option>
                 <option value="1">Govt. Official</option>
                 <option value="2">Private Enterprise</option>
@@ -87,15 +87,15 @@ import './App.css';
                 <option value="4">Lecturer</option>
                 <option value="5">Student</option>
               </select>
-              <select class="form-select-sm" onChange={handleChange}>
+              <select className="form-select-sm" onChange={handleChange}>
                 <option selected>Select interest</option>
                 <option value="1">Digital Inclusivity</option>
                 <option value="2">Research & Innovation Journal</option>
                 <option value="3">Remote Job Portal</option>
                 <option value="4">E-library, Coding & Robotic Center</option>
               </select>
-              <p>Do you need a certificate
-                <select class="form-select-sm" onChange={handleChange}> 
+              <p>Do you need a certificate?
+                <select className="form-select-sm" onChange={handleChange}> 
                   <option value="1">Yes</option>
                   <option value="2">No</option>
                 </select>
