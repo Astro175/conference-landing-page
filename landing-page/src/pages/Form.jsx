@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './App.css';
 
-  function App() {
+
+  export default function Form() {
     const [formData, setFormData] = useState({
       surName: '',
       firstName: '',
@@ -33,7 +33,6 @@ import './App.css';
       <>
         <div
         style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/form-bg.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',
@@ -108,5 +107,3 @@ import './App.css';
       </>
     );
   }
-  
-  export default App;

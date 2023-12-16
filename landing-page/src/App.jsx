@@ -1,23 +1,18 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-// import Profile from './components/Profile/Profile' 
-import About from './components/About/About';
-import Footer from './components/Footer/Footer';
-import Guests from './components/Guests/Guests';
-import Head from './components/Header/Header';
-import Schedule from './components/Schedule/Schedule';
-import Speakers from './components/Speakers/Speakers';
+import Form from './pages/Form';
+import Home from './pages/home';
 function App() {
 
   return (
-    <div className='container'>
-      <Head />
-      <About />
-      <Speakers />
-      <Schedule />
-      <Guests />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path='/register' element={<Form />} />
+      </Routes>
+    </BrowserRouter>
+   
   )
 }
 
-export default App
+export default App;

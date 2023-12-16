@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Time.css';
 
 export default function Time() {
@@ -58,7 +59,7 @@ export default function Time() {
           <span>Time is up</span>
         )}
       </div>
-      <button className='join-btn'>Secure my spot</button>
+      <Link to='/register'><button className='join-btn'>Secure my spot</button></Link>
     </div>
   );
 }
