@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import './Form.css';
 
   export default function Form() {
     const [formData, setFormData] = useState({
@@ -24,9 +24,7 @@ import { useState } from 'react';
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      // Handle form submission logic here
       console.log('Form submitted:', formData);
-      // You can send the data to a server or perform other actions
     };
   
     return (
@@ -49,33 +47,36 @@ import { useState } from 'react';
         <form className="form-floating" onSubmit={handleSubmit}>
           <div className='container'>
             <div className="form-floating mb-3">
+              <label htmlFor="floatingInput">Surname</label>
               <input type="text" className="form-control" id="floatingInput" placeholder="Surname" value={formData.surName}
               onChange={handleChange}/>
-              <label htmlFor="floatingInput">Surname</label>
             </div>
             <div className="form-floating">
-              <input type="text" className="form-control" id="floatingPassword" placeholder="First name" value={formData.firstName} onChange={handleChange}/>
               <label htmlFor="floatingPassword">First name</label>
+              <input type="text" value={formData.firstName} onChange={handleChange} placeholder='first name'/>
             </div>
             <div className="form-floating mb-3">
-              <input type="text" className="form-control" id="floatingInput" placeholder="Middle Name" value={formData.otherName}
-              onChange={handleChange}/>
               <label htmlFor="floatingInput">Middle name</label>
+              <input type="text" value={formData.otherName} onChange={handleChange} placeholder='Middle name'/>
+              
             </div>
             <div className="form-floating mb-3">
+              <label htmlFor="floatingInput">Phone Number</label>
               <input type="text" className="form-control" id="floatingInput" placeholder="Phone Number" value={formData.otherName}
               onChange={handleChange}/>
-              <label htmlFor="floatingInput">Phone Number</label>
+              
             </div>
             <div className="form-floating mb-3">
-              <input type="text" className="form-control" id="floatingInput" placeholder="name@example.com" value={formData.email}
-              onChange={handleChange}/>
               <label htmlFor="floatingInput">Email</label>
+              <input type="text"  placeholder="name@example.com" value={formData.email}
+              onChange={handleChange}/>
+              
             </div>
             <div className="form-floating mb-3">
-              <input type="text" className="form-control" id="floatingInput" placeholder="Organization" value={formData.surName}
+               <label htmlFor="floatingInput">Organization</label>
+              <input type="text" placeholder="Organization" value={formData.surName}
               onChange={handleChange}/>
-              <label htmlFor="floatingInput">Organization</label>
+             
             </div>
             <div className="form-floating mb-3">
               <select className="form-select-sm" aria-label="Default select example" onChange={handleChange}>
