@@ -1,31 +1,130 @@
-form, .top-reg {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
     background-image: linear-gradient(177deg, #191E24 100%, #353F4A 0%);
     width: 100vw;
     font-family: Nunito;
     color: white;
 }
 
-form {
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    
-}
 
-label {
-    display: block;
-}
+@media (max-width: 480px) {
 
-input, select {
-    width: 80%;
-    height: 1.5em;
-}
+    .form-container {
+        padding-left: 1em;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .header {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .title {
+        font-size: 1.5em;
+        font-weight: 900;
+        margin: 0;
+        padding: 0;
+    }
 
-button {
-    background: #3461FF;
-    border: none;
-    width: 6em;
-    height: 3em;
-    border-radius: 5px;
-    color: white;
+    .form-container span {
+        margin-top: .8em;
+        padding: 0;
+        display: block;
+        font-size: 1em;
+        text-align: center;
+    }
+
+    form {
+        margin-top: 1em;
+        padding: 1.5em;
+        margin: 0;
+        /* background-color: yellow; */
+        max-width: 80vw;
+    }
+
+    fieldset {
+        border: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+        margin-top: 1em;
+    }
+
+    legend {
+        text-align: left;
+        font-size: 1.2em;
+        margin-bottom: 1em;
+    }
+
+    .form-container input {
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        width: 100%;
+        color: white;
+        text-align: left;
+    }
+
+    .form-container input::placeholder {
+        text-align: left;
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 500;
+        color: #8D8D8D;
+    }
+
+    .form-container select {
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid white;
+        color: white;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .form-container option {
+        margin: 0;
+        padding: 0;
+        color: black;
+    }
+
+    .selection {
+        margin-top: 1em;
+    }
+
+    .certificate--section {
+        display: flex;
+        gap: 4.5em;
+        margin-top: 1em;
+    }
+
+    .submit--button {
+        width: 100%;
+        border-radius: 12px;
+        background: #3461FF;
+        border: none;
+        padding: 1em;
+        color: white;
+        margin-top: 1em;
+    }
+
+
+
 }
