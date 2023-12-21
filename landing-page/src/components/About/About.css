@@ -76,11 +76,13 @@
     top: 17em;
     left: 10em;
     z-index: 1;
+    object-fit: cover;
 }
 
 .vector-2 {
     top: 2em;
     z-index: 1;
+    object-fit: cover;
 }
 
 .vector-3 {

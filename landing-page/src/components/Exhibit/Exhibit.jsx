@@ -1,5 +1,5 @@
 import './Exhibit.css';
-import image from './Image.png';
+import image from './image.jpg';
 const Exhibit = () => {
     return (
         <article className='exhibit--container'>

@@ -76,7 +76,7 @@ export default function Form() {
   return (
     <div className='form-container'>
        <section className="header">
-         <h1 className='title'>Registration Form</h1>
+         <h1 className='Reg--title'>Registration Form</h1>
          <span className="sub-title">Kindly enter your details below to register </span>
        </section>
         <form onSubmit={handleOnSubmit}>
