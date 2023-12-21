@@ -2,7 +2,7 @@
   "forms": {
     "contactForm": {
       "name": "Contact Form",
-      "actions": [{ "type": "email", "to": "kwaratechacademy@gmail.com" }]
+      "actions": [{ "type": "email", "to": "aspark400@gmail.com" }]
     }
   }
 }

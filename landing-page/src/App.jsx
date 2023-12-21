@@ -6,7 +6,7 @@ import Home from './pages/home';
 function App() {
 
   return (
-    <FormspreeProvider project="mleyqqve"> {/* Add FormspreeProvider here */}
+    <FormspreeProvider project="mleyqqve">
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
