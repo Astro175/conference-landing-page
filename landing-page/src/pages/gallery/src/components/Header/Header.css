@@ -1,0 +1,19 @@
+div.header {
+    height: 400px;
+    width: 100%;
+}
+
+.carousel {
+    width: 100%; /* Set the width of the carousel container */
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .carousel-item {
+    height: 300px; /* Set the height of each carousel item */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Set the width of the image within each carousel item */
+    height: 100%; /* Set the height of the image within each carousel item */
+    object-fit: fill; /* Control how the image should be resized to fit the container */
+  }
