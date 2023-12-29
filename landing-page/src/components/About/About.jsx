@@ -1,6 +1,6 @@
 import './About.css';
-import image1 from './About1.jpg';
-import image2 from './About2.jpg';
+import image1 from './About1.png';
+import image2 from './About2.png';
 
 const About = () => {
     const myText = `In an era of rapid digital transformation, 

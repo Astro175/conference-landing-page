@@ -1,4 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .form-container {
     background-image: linear-gradient(177deg, #191E24 100%, #353F4A 0%);
@@ -23,7 +31,7 @@
         flex-direction: column;
         padding: 0;
     }
-    .Reg--title {
+    .title {
         font-size: 1.5em;
         font-weight: 900;
         margin: 0;
