@@ -97,7 +97,7 @@
 }
 .about--section {
     display: flex;
-    padding: 0 1em;
+    padding: 1em;
 }
 .about--title {
     font-size: 1em;

@@ -23,7 +23,7 @@ nav {
 @media (max-width: 480px) {
 
     nav {
-      padding-left: 1em;
+      padding: 5px;
     }
     nav .title {
       font-size: 12px;

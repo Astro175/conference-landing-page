@@ -37,6 +37,7 @@ export default function Form() {
         interest:'',
         certificate:''
       });
+      window.location.href = 'https://chat.whatsapp.com/KxP7SGMpySsJgdvY7LHMvY';
     } else {
       setStatus({
         info: { error: true, msg: msg },
