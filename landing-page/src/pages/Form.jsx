@@ -19,6 +19,8 @@ export default function Form() {
       interest:'',
       certificate:'',
     });
+  const [redirect, setRedirect] = useState(false); // New state for redirection
+
   const handleServerResponse = (ok, msg) => {
     if (ok) {
       setStatus({
